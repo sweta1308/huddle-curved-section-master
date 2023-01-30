@@ -6,6 +6,7 @@ body {
 
 main {
     padding: 70px 90px;
+    padding-bottom: 0;
 }
 
 nav {
@@ -92,21 +93,139 @@ nav button {
     margin-top: 100px;
 }
 
-.first-section img {
-    width: 400px;
+.first-section img, .third-section img {
+    width: 350px;
+    margin-right: 200px;
 }
 
 .second-section img {
-    width: 400px;
-}
-
-.third-section img {
-    width: 400px;
+    width: 350px;
 }
 
 
+.bg1 {
+    margin: -90px;
+    width: 1380px;
+    margin-top: 60px;
+}
 
+.bg2 {
+    margin: -88px;
+    width: 1380px;
+}
+
+.bg3 {
+    margin: -90px;
+    width: 1380px;
+}
+
+.bg4 {
+    margin: -90px;
+    width: 1380px;
+}
+
+.first-section, .third-section {
+    background-color: rgb(246, 250, 252);
+    margin-left: -90px;
+    width: 1375px;
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+
+.first-section .text, .second-section .text, .third-section .text {
+    width: 400px;
+    margin-left: 260px;
+    margin-top: 90px;
+}
+
+.first-section .text h2, .second-section .text h2, .third-section .text h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+.first-section .text p, .second-section .text p, .third-section .text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    margin-top: -6px;
+    font-weight: 600;
+}
+
+.second-section {
+    margin: 150px 0;
+    margin-left: 130px;
+}
+
+.ready {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 200px;
+}
 
 .wave-border {
-    width: 1000px;
+    width: 1380px;
+    margin-left: -90px;
+    margin-top: 80px;
+    margin-bottom: -5px;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    margin: 0 -90px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    padding-top: 80px;
+}
+
+.left-part {
+    width: 250px;
+    margin-left: 150px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+.right-part {
+    width: 400px;
+    margin-right: 200px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+.phone, .email {
+    display: flex;
+}
+
+.phone img, .email img {
+    width: 15px;
+    height: 15px;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+.email {
+    margin-top: -8px;
+}
+
+.right-part p {
+    width: 280px;
+}
+
+.email-input {
+    margin-top: 30px;
+}
+
+.email-input input {
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.email-input button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin-left: 30px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12px;
 }
