@@ -249,3 +249,17 @@ footer {
 .email-input button:hover {
     background-color: hsl(321, 100%, 78%);
 }
+
+@media only screen and (max-width:480px){
+  .stats {
+    display: block;
+  }
+
+  .first-section, .second-section, .third-section {
+    display: block;
+  }
+
+  footer {
+    display: block;
+  }
+}
