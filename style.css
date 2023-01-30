@@ -183,6 +183,7 @@ footer {
     margin: 0 -90px;
     color: white;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     padding-bottom: 150px;
     padding-top: 80px;
