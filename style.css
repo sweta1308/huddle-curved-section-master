@@ -247,6 +247,11 @@ footer {
     cursor: pointer;
 }
 
+.error-msg {
+    display: none;
+    color: red;
+}
+
 .email-input button:hover {
     background-color: hsl(321, 100%, 78%);
 }
