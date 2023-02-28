@@ -256,6 +256,46 @@ footer {
     background-color: hsl(321, 100%, 78%);
 }
 
+.fa-twitter {
+    background-color: white;
+    color: black;
+    margin-right: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.fa-instagram {
+    color: white;
+    background-color: transparent;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-facebook-f {
+    color: hsl(192, 100%, 9%);
+    background-color: white;
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 8px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.fa-twitter:hover {
+    background-color: rgb(102, 154, 225);
+}
+
+.fa-instagram:hover {
+    color: rgb(209, 88, 88)
+}
+
+.fa-facebook-f:hover {
+    color: white;
+    background-color: rgb(102, 154, 225);
+}
+
 @media only screen and (max-width:480px){
   .stats {
     display: block;
