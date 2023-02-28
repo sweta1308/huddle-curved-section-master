@@ -297,15 +297,21 @@ footer {
 }
 
 @media only screen and (max-width:480px){
-  .stats {
-    display: block;
-  }
+    main {
+        padding: 50px 30px;
+    }
+    .main-image {
+        width: 350px;
+    }
+    .stats {
+        display: block;
+    }
 
-  .first-section, .second-section, .third-section {
-    display: block;
-  }
+    .first-section, .second-section, .third-section {
+        display: block;
+    }
 
-  footer {
-    display: block;
-  }
+    footer {
+        display: block;
+    }
 }
