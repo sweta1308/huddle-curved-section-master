@@ -367,7 +367,7 @@ footer {
     .first-section .text, .second-section .text, .third-section .text, .second-section {
         margin: 0 auto;
         width: 300px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .first-section .text p, .second-section .text p, .third-section .text p {
