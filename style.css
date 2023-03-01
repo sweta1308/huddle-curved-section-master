@@ -281,20 +281,24 @@ footer {
 
     nav img {
         width: 90px;
-        height: 20px;
+        height: 40px;
+    }
+
+    .main-heading {
+        padding: 0 30px;
     }
 
     .main-para {
         width: 300px;
     }
 
-    .start-button {
-        margin-left: 30px;
+    .headers .start-button, .start-button {
+        margin-left: 50px;
     }
 
     .main-image {
         width: 250px;
-        margin: 50px 0;
+        margin: 20px 0 50px;
         margin-left: 20px;
     }
 
