@@ -299,18 +299,18 @@ footer {
     }
 
     .start-button {
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
     .main-image {
-        width: 350px;
+        width: 250px;
         margin-left: 10px;
     }
 
     .stats {
         display: block;
         text-align: center;
-        width: 300px
+        width: 200px;
     }
 
     .bg1, .bg2, .bg3, .bg4, .first-section, .third-section, .wave-border {
