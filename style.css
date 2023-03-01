@@ -314,6 +314,15 @@ footer {
 
     .first-section, .second-section, .third-section {
         display: block;
+        width: 450px;
+    }
+
+    .first-section img, .third-section img {
+        margin-right: 0;
+    }
+
+    .first-section .text, .second-section .text, .third-section .text, .second-section {
+        margin-left: 0;
     }
 
     footer {
