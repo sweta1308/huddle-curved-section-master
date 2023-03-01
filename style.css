@@ -319,12 +319,12 @@ footer {
     }
 
     .bg1, .bg2, .bg3, .bg4, .first-section, .third-section, .wave-border {
-        width: 300px;
+        width: 350px;
         margin: 0;
     }
 
     .bg1, .bg2, .bg3, .bg4, .wave-border {
-        margin-left: -40px;
+        margin-left: -35x;
     }
 
     .first-section, .second-section, .third-section {
