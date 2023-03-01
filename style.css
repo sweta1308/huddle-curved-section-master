@@ -323,6 +323,7 @@ footer {
     .bg1, .bg2, .bg3, .bg4, .first-section, .third-section, .wave-border {
         width: 100%;
         margin: 0;
+        padding: 0;
     }
     .wave-border {
         margin-top: 50px;
@@ -331,6 +332,8 @@ footer {
     .first-section, .second-section, .third-section {
         display: block;
         text-align: center;
+        padding: 0;
+        margin: 0;
     }
 
     .bg1, .bg3 {
