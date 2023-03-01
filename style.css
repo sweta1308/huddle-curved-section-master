@@ -369,4 +369,9 @@ footer {
     .left-part {
         margin-left: 0;
     }
+
+    .email-input button {
+        margin-left: 250px;
+        margin-top: 20px;
+    }
 }
