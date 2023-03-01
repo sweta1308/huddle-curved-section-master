@@ -310,6 +310,7 @@ footer {
 
     .bg1, .bg2, .bg3, .bg4, .first-section, .third-section, .wave-border {
         width: 400px;
+        margin: 0;
     }
 
     .first-section, .second-section, .third-section {
@@ -327,5 +328,6 @@ footer {
 
     footer {
         display: block;
+        margin: 0;
     }
 }
