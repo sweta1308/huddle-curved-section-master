@@ -355,9 +355,14 @@ footer {
     footer {
         display: block;
         margin: -8px -30px 0 -30px;
+        text-align: center;
     }
 
     .email-input {
         display: block;
+    }
+
+    .left-part {
+        margin-left: 0;
     }
 }
