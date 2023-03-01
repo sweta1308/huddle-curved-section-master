@@ -339,7 +339,7 @@ footer {
     }
 
     .first-section, .third-section {
-        margin-top: -8px;
+        margin-top: -6px;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -347,10 +347,12 @@ footer {
     .first-section img, .third-section img {
         margin-right: 0;
         width: 250px;
+        margin: 0 auto;
     }
 
     .second-section img {
         width: 250px;
+        margin: 0 auto;
     }
 
     .first-section .text, .second-section .text, .third-section .text, .second-section {
@@ -364,7 +366,7 @@ footer {
 
     footer {
         display: block;
-        margin: -8px -30px 0 -30px;
+        margin: -6px -30px 0 -30px;
         padding: 55px;
     }
 
