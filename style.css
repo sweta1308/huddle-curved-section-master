@@ -339,7 +339,7 @@ footer {
     }
 
     .first-section, .third-section {
-        margin-top: -15px;
+        margin-top: -8px;
         display: flex;
         flex-direction: column-reverse;
     }
