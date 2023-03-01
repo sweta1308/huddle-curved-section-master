@@ -323,6 +323,10 @@ footer {
         margin: 0;
     }
 
+    .bg1, .bg2, .bg3, .bg4, .wave-border {
+        margin-left: -60px;
+    }
+
     .first-section, .second-section, .third-section {
         display: block;
         width: 350px;
