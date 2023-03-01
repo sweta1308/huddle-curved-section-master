@@ -113,24 +113,13 @@ nav button:hover {
     width: 350px;
 }
 
-
 .bg1 {
     margin: -90px;
     width: 1380px;
     margin-top: 60px;
 }
 
-.bg2 {
-    margin: -88px;
-    width: 1380px;
-}
-
-.bg3 {
-    margin: -90px;
-    width: 1380px;
-}
-
-.bg4 {
+.bg2, .bg3, .bg4 {
     margin: -90px;
     width: 1380px;
 }
@@ -300,11 +289,21 @@ footer {
     main {
         padding: 50px 30px;
     }
+
+    nav img {
+        width: 150px
+    }
+
     .main-image {
         width: 350px;
     }
     .stats {
         display: block;
+        text-align: center;
+    }
+
+    .bg1, .bg2, .bg3, .bg4, .first-section, .third-section {
+        width: 400px;
     }
 
     .first-section, .second-section, .third-section {
