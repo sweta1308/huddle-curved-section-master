@@ -290,8 +290,13 @@ footer {
         padding: 50px 30px;
     }
 
+    nav {
+        margin-bottom: 50px;
+    }
+
     nav img {
-        width: 70px
+        width: 90px;
+        height: 50px;
     }
 
     .main-para {
