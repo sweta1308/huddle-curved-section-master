@@ -310,7 +310,8 @@ footer {
 
     .main-image {
         width: 250px;
-        margin: 50px auto;
+        margin: 50px 0;
+        margin-left: 20px;
     }
 
     .stats {
