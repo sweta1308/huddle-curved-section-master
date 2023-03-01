@@ -371,7 +371,7 @@ footer {
         margin-top: 80px;
     }
 
-    .left-part p {
+    .left-part p, .right-part p {
         width: 250px;
     }
 
