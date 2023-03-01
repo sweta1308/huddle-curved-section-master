@@ -338,6 +338,10 @@ footer {
         text-align: center;
     }
 
+    .first-section, .third-section {
+        margin-top: -10px;
+    }
+
     .first-section img, .third-section img {
         margin-right: 0;
         width: 250px;
