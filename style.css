@@ -362,6 +362,10 @@ footer {
         display: block;
     }
 
+    .left-part,.right-part {
+        width: 350px;
+    }
+
     .left-part {
         margin-left: 0;
     }
