@@ -324,11 +324,6 @@ footer {
         width: 100%;
         margin: 0;
     }
-
-    .bg1, .bg2, .bg3, .bg4, .wave-border {
-        margin-left: -35px;
-    }
-
     .wave-border {
         margin-top: 50px;
     }
