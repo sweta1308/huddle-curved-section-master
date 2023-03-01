@@ -2,17 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body {
     margin: 0;
+    padding: 0;
 }
-
-main {
-    padding: 70px 90px;
-    padding-bottom: 0;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
+    padding: 60px 150px;
 }
 
 nav img {
@@ -48,7 +44,7 @@ nav button:hover {
     font-weight: 600;
 }
 
-.start-button {
+.headers .start-button, .start-button {
     background-color: hsl(322, 100%, 66%);
     color: white;
     border: none;
@@ -59,7 +55,7 @@ nav button:hover {
     font-size: 16px;
     cursor: pointer;
     margin: 50px 0 100px;
-    margin-left: 470px;
+    margin-left: 550px;
 }
 
 .start-button:hover {
@@ -68,7 +64,7 @@ nav button:hover {
 
 .main-image {
     width: 700px;
-    margin-left: 250px;
+    margin-left: 300px;
 }
 
 .stats {
@@ -100,9 +96,8 @@ nav button:hover {
 .first-section, .second-section, .third-section {
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
+    width: 100%;
     margin: 0 auto;
-    margin-top: 100px;
 }
 
 .first-section img, .third-section img {
@@ -112,31 +107,33 @@ nav button:hover {
 
 .second-section img {
     width: 350px;
+    margin-left: 200px;
 }
 
 .bg1 {
-    margin: -90px;
-    width: 1380px;
+    width: 100%;
     margin-top: 60px;
 }
 
 .bg2, .bg3, .bg4 {
-    margin: -90px;
-    width: 1380px;
+    width: 100%;
 }
 
 .first-section, .third-section {
     background-color: rgb(246, 250, 252);
-    margin-left: -90px;
-    width: 1375px;
-    margin-top: 85px;
-    margin-bottom: 30px;
+    width: 100%;
 }
 
-.first-section .text, .second-section .text, .third-section .text {
+.first-section .text, .third-section .text {
     width: 400px;
     margin-left: 260px;
     margin-top: 90px;
+}
+
+.second-section .text {
+    width: 400px;
+    margin-top: 90px;
+    margin-right: 250px;
 }
 
 .first-section .text h2, .second-section .text h2, .third-section .text h2 {
@@ -152,7 +149,8 @@ nav button:hover {
 
 .second-section {
     margin: 150px 0;
-    margin-left: 130px;
+    width: 100%;
+    
 }
 
 .ready {
@@ -162,19 +160,17 @@ nav button:hover {
 }
 
 .wave-border {
-    width: 1380px;
-    margin-left: -90px;
+    width: 100%;
     margin-top: 80px;
     margin-bottom: -5px;
 }
 
 footer {
     background-color: hsl(192, 100%, 9%);
-    margin: 0 -90px;
     color: white;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 150px;
     padding-top: 80px;
 }
@@ -183,16 +179,8 @@ footer {
     width: 200px;
 }
 
-.left-part {
-    width: 250px;
-    margin-left: 150px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
-}
-
-.right-part {
+.left-part, .right-part {
     width: 400px;
-    margin-right: 200px;
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
 }
@@ -286,15 +274,9 @@ footer {
 }
 
 @media only screen and (max-width:480px){
-    main {
-        padding: 50px 30px;
-        padding-bottom: 0;
-    }
-
-    main 
-
     nav {
         margin-bottom: 90px;
+        padding: 50px 30px;
     }
 
     nav img {
