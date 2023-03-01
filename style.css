@@ -335,7 +335,7 @@ footer {
     .first-section, .second-section, .third-section {
         display: block;
         width: 350px;
-        margin: 0;
+        margin-left: -30px;
     }
 
     .first-section img, .third-section img {
