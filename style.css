@@ -291,7 +291,7 @@ footer {
     }
 
     nav img {
-        width: 100px
+        width: 70px
     }
 
     .main-para {
@@ -299,12 +299,12 @@ footer {
     }
 
     .start-button {
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .main-image {
         width: 250px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .stats {
