@@ -55,10 +55,11 @@ nav button:hover {
     padding: 20px 40px;
     font-family: "Open Sans", sans-serif;
     border-radius: 50px;
+    width: 250px;
     font-size: 16px;
-    margin: 50px 0 70px;
-    margin-left: 490px;
     cursor: pointer;
+    margin: 50px 0 100px;
+    margin-left: 470px;
 }
 
 .start-button:hover {
@@ -99,7 +100,7 @@ nav button:hover {
 .first-section, .second-section, .third-section {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    /* width: 100%; */
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -320,7 +321,7 @@ footer {
     }
 
     .bg1, .bg2, .bg3, .bg4, .first-section, .third-section, .wave-border {
-        width: 365px;
+        width: 100%;
         margin: 0;
     }
 
