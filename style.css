@@ -286,10 +286,12 @@ footer {
 }
 
 @media only screen and (max-width:480px){
-    main {
+    main nav, main .headers, main .main-image, main .stats {
         padding: 50px 30px;
         padding-bottom: 0;
     }
+
+    main 
 
     nav {
         margin-bottom: 90px;
