@@ -334,7 +334,6 @@ footer {
 
     .first-section, .second-section, .third-section {
         display: block;
-        width: 250px;
         margin-left: -30px;
         text-align: center;
     }
