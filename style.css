@@ -338,6 +338,14 @@ footer {
         text-align: center;
     }
 
+    .bg1, .bg3 {
+        margin-top: 70px;
+    }
+
+    .bg2, .bg4 {
+        margin-bottom: 70px;
+    }
+
     .first-section, .third-section {
         margin-top: -6px;
         display: flex;
