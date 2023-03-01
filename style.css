@@ -355,7 +355,7 @@ footer {
     footer {
         display: block;
         margin: -8px -30px 0 -30px;
-        text-align: center;
+        padding: 20px;
     }
 
     .email-input {
