@@ -294,9 +294,15 @@ footer {
         width: 150px
     }
 
+    .start-button {
+        margin-left: 150px;
+    }
+
     .main-image {
         width: 350px;
+        margin-left: 60px;
     }
+
     .stats {
         display: block;
         text-align: center;
