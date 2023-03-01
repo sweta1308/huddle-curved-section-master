@@ -363,19 +363,16 @@ footer {
     }
 
     .left-part,.right-part {
-        width: 350px;
+        width: 300px;
     }
 
     .left-part {
         margin-left: 0;
+        margin-top: 40px;
     }
 
     .email-input button {
         margin-left: 100px;
         margin-top: 10px;
-    }
-
-    .right-part {
-        margin-top: 40px;
     }
 }
