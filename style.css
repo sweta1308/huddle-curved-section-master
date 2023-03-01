@@ -356,4 +356,8 @@ footer {
         display: block;
         margin: -8px -10px 0 -10px;
     }
+
+    .email-input {
+        display: block;
+    }
 }
